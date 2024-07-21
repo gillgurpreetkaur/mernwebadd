@@ -1,0 +1,243 @@
+.mainsec{
+  border: 5px;
+  margin-top: 20px;
+  border-radius: 2px solid black;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-items: center;
+  color:white;
+  padding-left:  20px;
+  .img_src{
+    width: 100%;
+    height: 30vh;
+   img{
+   width: 100%;
+   height: auto;
+   }
+  }
+  .contentsec{
+    width: 70%;
+    color:#101112;
+    h3{
+      font-weight: 700;
+      line-height: 1.2;
+      letter-spacing: 0;
+      font-size:40px;
+    }
+    p{
+      font-weight: 100;
+      line-height: 1.2;
+      letter-spacing: 0;
+      font-size:20px; 
+    }
+    .btn{
+      background-color: #101112;
+      font-weight: 700;
+      line-height: 1.2;
+      letter-spacing: 0;
+      font-size: 1.1rem;
+      color:white;
+      height: 3rem;
+      width: 10rem;
+      border-radius: 0%;
+      border: 0%;
+    }
+  }
+}
+    
+    .letslearn{
+    h2{
+      font-weight: 700;
+      line-height: 1.2;
+      letter-spacing: 0;
+      font-size:40px;
+      
+    }
+    }
+    .learnig_start{
+      border: 4px;
+      border-radius: 2px solid black;
+      background-color: black;
+      color:white;
+      padding: 10px;
+      h3{
+        font-weight: 700;
+        line-height: 1.2;
+        letter-spacing: 0;
+        font-size:25px;
+        
+      }
+      p{
+        font-weight: 100;
+        line-height: 1.2;
+        letter-spacing: 0;
+        font-size:20px; 
+      }
+      .btn{
+        color: white;
+        background-color: rgb(5, 5, 66);
+        padding: 5px;
+      }
+    }
+   .next_lear{
+    h2{
+      font-weight: 700;
+      line-height: 1.2;
+      letter-spacing: 0;
+      font-size:25px;
+    }
+    h3{
+      font-weight: 100;
+      line-height: 1.2;
+      letter-spacing: 0;
+      font-size:20px; 
+    }
+   }
+   .uiuxmain{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+
+    .img{
+      img{
+        width: 100%;
+      }
+    }
+    .textcontainer{
+      width: 80%;
+      h3{
+        font-weight: 700;
+        line-height: 1.2;
+        letter-spacing: 0;
+        font-size:25px;
+      }
+     p{
+      color:rgb(77, 76, 76);
+     }
+     span{
+      color:rgb(206, 27, 87);
+     }
+     .btn{
+      background-color: #101112;
+      font-weight: 700;
+      line-height: 1.2;
+      letter-spacing: 0;
+      font-size: 1.1rem;
+      color:white;
+      height: 3rem;
+      width: 10rem;
+      border-radius: 0%;
+      border: 0%;
+     }
+    }
+   }
+
+  .container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-items: center;
+    align-items: center;
+    .card{
+      width: 80%;
+      height: 30vh;
+      margin: 20px;
+      background-color: rgb(241, 237, 237);
+       img{
+        width: 100%;
+        height: 15vh;
+       }
+       .textcontain{
+        width: 100%;
+        height: 15vh;
+        h5{
+          padding: 2px;
+          margin: 2px;
+        }
+        h4{
+          margin: 2px;
+        }
+        p{
+          margin: 2px;
+        }
+       }
+    }
+  }
+  .sidebtn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+  }
+  .btnmove{
+    .btnbuy{
+      background-color: rgb(46, 55, 226);
+      color: white;
+      border: 2px solid black;
+      border-radius: 5px ;
+    }
+   
+  }
+  .card:hover{
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7);
+  }
+  
+
+        
+      
+    @media (width <=1400px) {
+     
+    }
+    @media (width <=1200px) {
+     
+      }
+      @media (width <=990px) {
+        .uiuxmain{
+          display: grid;
+          grid-template-columns: repeat(1,1fr);
+        }
+      }
+      @media (width <=734px) {
+
+      }
+      @media (width <=690px) {
+
+      }
+      @media (width <=510px) {
+
+      }
+      @media (width <=470px) {
+        .uiuxmain{
+          grid-template-columns: repeat(1,1fr);
+      }
+      .container{
+        grid-template-columns: repeat(2,1fr);
+      }
+
+    h5  {
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0;
+        font-size:14px;
+      }
+      p{
+        font-weight: 100;
+        font-size:12px;
+      }
+      h4{
+        font-weight: 700;
+        line-height: 1.2;
+        letter-spacing: 0;
+        font-size:16px;
+      }
+      .card{
+        box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7);
+      }
+      .mainsec{
+        grid-template-columns: repeat(1,1fr);
+      }
+      .img_src{
+        margin-top: 60px;
+      }
+    }

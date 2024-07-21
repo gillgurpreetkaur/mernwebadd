@@ -1,0 +1,33 @@
+.container{
+    min-width: 142px;
+    margin: 0% auto;
+    box-sizing: border-box;
+    background-color: black;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   height: 10vh;
+   
+}
+.logosec .links {
+    text-decoration: none;
+    color:rgb(151, 47, 9);
+    font-size: 25px;
+}
+
+.links {
+    text-decoration: none;
+    color:rgb(151, 47, 9);
+}
+
+.secnav ul li{
+    display: inline;
+    padding: 20px;
+    font-size: 20px;
+}
+.btnoflogoiut{
+    background-color: black;
+    color:rgb(151, 47, 9);
+    border: 0cap;
+    font-size: 15px;
+}

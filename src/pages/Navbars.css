@@ -1,0 +1,133 @@
+body{
+  overflow-x: hidden;
+}
+.maincontent{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7);
+}
+.btnoflogoiut{
+  background-color: rgb(190, 67, 108);
+  border: 2px solid black;
+  border-radius: 3px;
+  font-size: 15px;
+  color: aliceblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.listContainer ul {
+    li{
+        display: inline;
+        padding: 15px;
+        font-size: 1.3rem;
+        color: rgba(7, 7, 118, 0.348);
+        font-weight: 500;
+
+        .link {
+            text-decoration: none;
+            color: rgb(234, 234, 11);
+        }
+        .links{
+        text-decoration: none;
+    }
+}
+}
+.logocontainer{
+    width: 7rem;
+    height: auto;
+    margin-top: 5px;
+    img{
+     width: 100%;
+     height: auto;
+    }
+}
+
+.mobil-nav-icon{
+  width: 4rem;
+  height: 3rem;
+  color: black;
+  display: none;
+  cursor: pointer;
+  background: transparent;
+}
+.mobil-nav-icon.close-icon {
+  display: none;
+}
+
+@media (width <=1400px) {
+    html{
+      font-size: 56.25%;
+    }  
+  }
+  @media (width <=1200px) {
+      html{
+        font-size: 54%;
+      }  
+    }
+    @media (width <=990px) {
+
+    }
+    @media (width <=734px) {
+
+    }
+    @media (width <=690px) {
+
+    }
+    @media (width <=510px) {
+
+    }
+    @media (width <=470px) {
+      html{
+        overflow-x: hidden;
+      }
+      .mobil-nav-icon{
+        display: block;
+        z-index: 999;
+        border-radius: 3px;
+        border:3px solid black;
+      }
+      .maincontent{
+        position: relative;
+      }
+      .listContainer{
+        width: 100%;
+        height: 40vh;
+        background-color: rgb(242, 242, 243);
+        position: absolute;
+        top:0;
+        left: 0;    
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(100%);
+        transition: all 0.5s linear;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+      }
+      .urlhead{
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        .link{
+          font-size: 15px;
+        }
+        .links{
+          padding: 0%;
+          margin: 0%;
+          font-size: 15px;
+        }
+      }
+      .active .listContainer{
+       transform: translateX(0);
+       opacity: 1;
+       visibility: visible;
+       pointer-events: auto;
+      }
+      .active .mobil-nav-icon.close-icon{
+        display: block;
+      }
+      .active .mobil-nav-icon.menu-icon{
+        display: none;
+      }
+    }

@@ -1,0 +1,52 @@
+.continue-courses{
+    max-width: 1410px;
+    margin: 0% auto;
+    box-sizing: border-box;
+    display: flex;
+    padding-top: 40px;
+    height: 20vh;
+    justify-content: space-evenly;
+    align-items: center;
+    .arrow-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:40px;
+        img{
+            width: 50px;
+        }
+    }
+}
+.addtocatdbuket{
+    img{
+        width: 80px;
+        height: auto;
+        position: absolute;
+    }
+    p{
+       position: relative; 
+       padding-left: 60px;
+    }
+}
+.headonediv{
+    max-width: 1410px;
+    margin: 0% auto;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+    padding: 50px;
+}
+.cardsec{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-items: center;
+    align-items: center;
+    overflow-y: scroll;
+    .imgcourses{
+        img
+        {
+          width: 100%;
+          height: auto;
+        }
+    }
+  
+}
